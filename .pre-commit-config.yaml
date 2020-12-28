@@ -1,0 +1,25 @@
+repos:
+- repo: https://github.com/asottile/seed-isort-config
+  rev: v2.2.0
+  hooks:
+  - id: seed-isort-config
+- repo: https://github.com/pre-commit/mirrors-isort
+  rev: v5.6.4
+  hooks:
+  - id: isort
+- repo: https://gitlab.com/pycqa/flake8
+  rev: 3.8.4
+  args: [--config=".flake8"]
+  hooks:
+  - id: flake8
+- repo: https://github.com/ambv/black
+  rev: stable
+  hooks:
+    - id: black
+      language_version: python3.9
+-   repo: https://github.com/pre-commit/mirrors-mypy
+    rev: 'v0.790'  # Use the sha / tag you want to point at
+    hooks:
+    -   id: mypy
+        args: [--no-strict-optional, --ignore-missing-imports]
+        additional_dependencies: [tokenize-rt==3.2.0]
