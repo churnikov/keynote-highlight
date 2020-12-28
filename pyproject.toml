@@ -1,9 +1,11 @@
 [tool.poetry]
 name = "keynote_highlight"
-version = "0.0.1"
-description = ""
+version = "0.0.2"
+description = "Code highlighter with preset, but customizable settings"
 authors = ["Nikita Churikov <nikita@chur.ru>"]
 license = "MIT"
+readme="README.md"
+homepage="https://github.com/churnikov/keynote-highlight"
 
 [tool.poetry.dependencies]
 python = "^3.9"

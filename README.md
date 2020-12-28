@@ -2,6 +2,14 @@
 
 *Code highlighter with preset, but customizable settings*
 
+## Install
+
+Requires python 3.9
+
+`pip install keynote-highlight`
+
+## Motivation
+
 Have you ever wanted to highlight your code for presentation with just one command from cli? Then this tool is for you!
 
 Let's say, you want to make a presentation on Riemann sum and you want to add this code to your slides.
