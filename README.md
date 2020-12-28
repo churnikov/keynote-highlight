@@ -2,11 +2,15 @@
 
 *Code highlighter with preset, but customizable settings*
 
-## Install
+## Install and run
 
 Requires python 3.9
 
-`pip install keynote-highlight`
+1. `pip install keynote-highlight`;
+2. Copy code to clipboard;
+3. Run `keyhi`;
+4. Paste code to keynote;
+5. That's it!
 
 ## Motivation
 
