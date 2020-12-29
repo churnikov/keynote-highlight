@@ -52,9 +52,9 @@ if __name__ == "__main__":
     print(riemann_sum(lambda x: x, (-4, 3)))
 ```
 
-This is how it's going to look:
+This is how it's going to work:
 
-[![keyhi_demo.png](images/keyhi_demo.png)](https://yadi.sk/i/Cy2s4W1BV5kVsA)
+[![keyhi_demo.gif](images/keyhi_demo.gif)](https://yadi.sk/i/Cy2s4W1BV5kVsA)
 
 ## Features
 - Select any language and styles to highlight code available in pygments;
